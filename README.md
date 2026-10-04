@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00f5ff,50:7b2ff7,100:ff2e97&height=260&section=header&text=ABHISHEK%20R%20BIRADAR&fontSize=54&fontColor=ffffff&stroke=00f5ff&strokeWidth=1&animation=twinkling&fontAlignY=40&desc=%E2%9A%A1%20AI%20%2F%20ML%20Developer%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Logistics%20Intelligence&descSize=18&descAlignY=62" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=800&color=00F5FF&background=00000000&center=true&vCenter=true&multiline=false&width=820&height=50&lines=%3E+Turning+real-world+problems+into+AI+systems;%3E+Computer+Vision+%7C+Deep+Learning+%7C+Data+Analytics;%3E+Logistics+Intelligence+that+actually+ships;%3E+%F0%9F%A5%88+2nd+Place+%E2%80%94+VTU+State-Level+Hackathon+2026" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=00F5FF&center=true&vCenter=true&width=820&lines=Turning+real-world+problems+into+AI+systems;Computer+Vision+%7C+Deep+Learning+%7C+Data+Analytics;Logistics+Intelligence+that+actually+ships;2nd+Place+VTU+State-Level+Hackathon+2026" alt="typing"/>
 
 <br/>
 
@@ -40,6 +40,14 @@ const abhishek = {
   lookingFor:["Internships", "Collaborations", "Hackathon teams"],
 } as const;
 ```
+
+---
+
+## 📦 `> ls -lt ./repos` <sub>(auto-updates every 3h)</sub>
+
+<!-- REPOS:START -->
+*This table refreshes automatically — nothing to edit here by hand.*
+<!-- REPOS:END -->
 
 ---
 
@@ -156,7 +164,6 @@ flowchart LR
 
 <br/>
 
-<!-- 🐍 Snake animation: requires the snake.yml workflow (see setup notes) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhishekRBiradar/AbhishekRBiradar/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhishekRBiradar/AbhishekRBiradar/output/github-snake.svg" />
