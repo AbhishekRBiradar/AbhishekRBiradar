@@ -1,0 +1,72 @@
+name: Sync Latest Repos
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:         # manual "Run workflow" button
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch repos and rewrite README section
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // 1. Get this user's public, non-fork repos, newest first
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: context.repo.owner,
+              sort: 'created',
+              direction: 'desc',
+              per_page: 100,
+            });
+
+            const visible = repos
+              .filter(r => !r.fork && !r.private)
+              .slice(0, 6); // show up to 6 most recent
+
+            // 2. Build a markdown table
+            let table = '| Repo | Description | Language | Updated |\n';
+            table += '| :-- | :-- | :-- | :-- |\n';
+            for (const r of visible) {
+              const desc = (r.description || '—').replace(/\|/g, '-');
+              const lang = r.language || '—';
+              const updated = new Date(r.pushed_at).toISOString().split('T')[0];
+              table += `| [${r.name}](${r.html_url}) | ${desc} | ${lang} | ${updated} |\n`;
+            }
+
+            // 3. Splice it into README.md between the markers
+            const path = 'README.md';
+            let content = fs.readFileSync(path, 'utf8');
+            const start = '<!-- REPOS:START -->';
+            const end = '<!-- REPOS:END -->';
+            const startIdx = content.indexOf(start);
+            const endIdx = content.indexOf(end);
+
+            if (startIdx === -1 || endIdx === -1) {
+              core.setFailed('README.md is missing the <!-- REPOS:START --> / <!-- REPOS:END --> markers.');
+              return;
+            }
+
+            const before = content.slice(0, startIdx + start.length);
+            const after = content.slice(endIdx);
+            content = `${before}\n${table}\n${after}`;
+            fs.writeFileSync(path, content);
+
+      - name: Commit changes if anything updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update latest repos"
+          git push
