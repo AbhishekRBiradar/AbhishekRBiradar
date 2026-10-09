@@ -49,7 +49,7 @@ const abhishek = {
 | Repo | Description | Language | Updated |
 | :-- | :-- | :-- | :-- |
 | [SwarmMesh](https://github.com/AbhishekRBiradar/SwarmMesh) | SWARM MESH is an offline, local-first distributed work platform for nearby Android devices. One Leader assigns workloads to approved Workers over local Wi-Fi or hotspot networks without requiring a cloud backend. | Dart | 2026-10-04 |
-| [AbhishekRBiradar](https://github.com/AbhishekRBiradar/AbhishekRBiradar) | Abhishek R Biradar profile | — | 2026-10-08 |
+| [AbhishekRBiradar](https://github.com/AbhishekRBiradar/AbhishekRBiradar) | Abhishek R Biradar profile | — | 2026-10-09 |
 | [SmartAttend-Ai](https://github.com/AbhishekRBiradar/SmartAttend-Ai) | SmartAttend AI — An intelligent facial recognition-based attendance management system using InsightFace, SCRFD, 512-D face embeddings, and FAISS, integrated with department-wise academic management, course enrollment, real-time attendance, examinations, and results. | TypeScript | 2026-09-20 |
 | [MerchantOps-AI](https://github.com/AbhishekRBiradar/MerchantOps-AI) | MerchantOps AI is an autonomous AI platform that helps online merchants detect revenue risks, analyze payment and business signals, simulate recovery strategies, assess risk, and make intelligent operational decisions through coordinated AI agents. | Python | 2026-09-04 |
 | [Logicommerce-AI](https://github.com/AbhishekRBiradar/Logicommerce-AI) | An AI-powered logistics optimization platform for shipment consolidation, vehicle selection, route planning, fleet utilization, fuel-cost reduction, and deadline-aware dispatch optimization. | Python | 2026-08-28 |
