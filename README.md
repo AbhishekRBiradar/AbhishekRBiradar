@@ -4,11 +4,25 @@
 
 `AI / ML DEVELOPER` &nbsp; · &nbsp; `COMPUTER VISION` &nbsp; · &nbsp; `LOGISTICS AI`
 
-<br />
+<br/>
 
-[**EMAIL**](mailto:abhishekrbiradar908a@gmail.com) &nbsp; **/** &nbsp;
-[**LINKEDIN**](https://www.linkedin.com/in/abhishek-r-biradar) &nbsp; **/** &nbsp;
-[**GITHUB**](https://github.com/AbhishekRBiradar)
+<a href="mailto:abhishekrbiradar908a@gmail.com">EMAIL</a>
+&nbsp; • &nbsp;
+<a href="https://www.linkedin.com/in/abhishek-r-biradar">LINKEDIN</a>
+&nbsp; • &nbsp;
+<a href="https://github.com/AbhishekRBiradar">GITHUB</a>
+
+<br/><br/>
+
+### 👀 YOU VISITED MY PROFILE!
+
+<img src="assets/profile-visitors.png" alt="Cartoon cat and cockroach-like characters holding a visitor counter sign" width="700"/>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=AbhishekRBiradar&style=for-the-badge&color=00C7B7&label=PROFILE+VIEWS" alt="GitHub profile views counter"/>
+
+<br/><br/>
 
 </div>
 
@@ -20,13 +34,13 @@
 
 ## SYSTEM STATUS
 
-<pre>
+```text
 STATUS       OPEN TO WORK
 LOCATION     INDIA
 EDUCATION    B.E. AI & ML · VVIT
 CGPA         8.1 / 10
 CURRENT      MERCHANTOPS AI
-</pre>
+```
 
 </td>
 <td width="50%" valign="top">
@@ -47,25 +61,25 @@ I am currently looking for internships, collaborations and strong hackathon team
 
 | PROJECT | WHAT IT DOES | STACK |
 | :--- | :--- | :--- |
-| **[MerchantOps AI](https://github.com/AbhishekRBiradar/MerchantOps-AI)** | Finds revenue risks, studies business signals and helps merchants decide what to fix first. | `Python` `AI Agents` |
-| **[Logicommerce AI](https://github.com/AbhishekRBiradar/Logicommerce-AI)** | Optimizes shipment consolidation, vehicle selection, route planning and fleet utilization. | `Python` `Pandas` |
-| **[SmartAttend AI](https://github.com/AbhishekRBiradar/SmartAttend-Ai)** | Face recognition workflow for enrollment, attendance, examinations and academic results. | `InsightFace` `SCRFD` `FAISS` |
-| **[SwarmMesh](https://github.com/AbhishekRBiradar/SwarmMesh)** | Offline, local-first distributed work platform for nearby Android devices. | `Dart` `Android` |
+| **[MerchantOps AI](https://github.com/AbhishekRBiradar/MerchantOps-AI)** | Identifies operational risks, analyzes business signals and helps merchants prioritize improvements. | `Python` `AI Agents` |
+| **[Logicommerce AI](https://github.com/AbhishekRBiradar/Logicommerce-AI)** | Explores shipment consolidation, vehicle selection, route planning and fleet utilization. | `Python` `Pandas` |
+| **[SmartAttend AI](https://github.com/AbhishekRBiradar/SmartAttend-Ai)** | Face-recognition workflow for enrollment, attendance, examinations and academic results. | `InsightFace` `SCRFD` `FAISS` |
+| **[SwarmMesh](https://github.com/AbhishekRBiradar/SwarmMesh)** | Offline, local-first distributed computing platform for nearby Android devices. | `Dart` `Android` |
 
-<br />
+<br/>
 
 ## HOW I BUILD
 
-<pre>
-  01  UNDERSTAND       Find the actual bottleneck
-  02  MODEL            Choose the simplest useful approach
-  03  BUILD             Turn the idea into a working system
-  04  MEASURE           Check whether anything really improved
-</pre>
+```text
+01  UNDERSTAND     Find the actual bottleneck
+02  MODEL          Choose the simplest useful approach
+03  BUILD          Turn the idea into a working system
+04  MEASURE        Check whether anything really improved
+```
 
 > The model is only one part of the product. Data quality, edge cases, readable outputs and user trust matter just as much.
 
-<br />
+<br/>
 
 ## TOOLBOX
 
@@ -104,7 +118,7 @@ I am currently looking for internships, collaborations and strong hackathon team
 </tr>
 </table>
 
-<br />
+<br/>
 
 ## RECENT SIGNALS
 
@@ -114,27 +128,27 @@ I am currently looking for internships, collaborations and strong hackathon team
 | **2025** | **Business Delegate — Bengaluru Tech Summit** | Bengaluru |
 | **2025** | **Future Entrepreneur — Startup Mahakumbh** | New Delhi |
 
-<br />
+<br/>
 
 ## CURRENT FOCUS
 
-<pre>
+```text
 BUILDING       MerchantOps AI
 LEARNING       Production ML · Cloud · Computer Vision at scale
-LOOKING FOR    AI/ML internships · collaborations · hackathon teams
-</pre>
+LOOKING FOR    AI/ML internships · Collaborations · Hackathon teams
+```
 
-If you have a real problem — not just a request to “add AI” — I would like to hear it.
+If you have a real problem — not just a request to "add AI" — I would like to hear it.
 
-<br />
+<br/>
 
 <div align="center">
 
 ## OPEN CHANNEL
 
-[**GET IN TOUCH →**](mailto:abhishekrbiradar908a@gmail.com)
+<a href="mailto:abhishekrbiradar908a@gmail.com"><strong>GET IN TOUCH →</strong></a>
 
-<br />
+<br/><br/>
 
 `BUILDING USEFUL THINGS. ONE SYSTEM AT A TIME.`
 
